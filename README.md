@@ -17,4 +17,4 @@ A professional, responsive one-page landing page built using modern web technolo
 - Clean and modern "Slate & Blue" UI.
 
 ## 🔗 Live Demo
-[Check out the live site here!](INSERT_YOUR_GITHUB_PAGES_LINK_HERE)
+[Check out the live site here!](https://touhid0503.github.io/Nexus-Digital-Agency/)
