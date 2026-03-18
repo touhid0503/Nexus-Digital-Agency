@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Digital | Creative Solutions</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN (This is how Tailwind is loaded) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-slate-50 font-['Inter']">
+
+    <!-- Header / Navbar -->
+    <header class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="logo-text">
+                <span class="text-2xl font-bold text-blue-600">NEXUS</span><span
+                    class="text-2xl font-bold text-slate-800">DIGITAL</span>
+            </div>
+            <ul class="hidden md:flex space-x-8 font-medium text-slate-600">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+            </ul>
+            <a href="#contact"
+                class="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition shadow-lg shadow-blue-200">Contact
+                Us</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-40 pb-20 px-6">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 space-y-6">
+                <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 leading-tight">
+                    Scale Your Business with <span class="text-blue-600">Smart Design.</span>
+                </h1>
+                <p class="text-lg text-slate-600 max-w-lg">
+                    We help entrepreneurs and brands grow through modern web technology and world-class UI/UX.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#portfolio" class="btn-primary inline-block">Our Portfolio</a>
+                    <a href="#about" class="btn-secondary inline-block">Learn More</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
+                    alt="Dashboard" class="rounded-2xl shadow-2xl floating-anim">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-slate-900 mb-4">Our Expertise</h2>
+            <div class="h-1.5 w-16 bg-blue-600 mx-auto mb-16 rounded-full"></div>
+
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="service-card group">
+                    <div class="icon-box">🌐</div>
+                    <h3 class="text-xl font-bold mb-3">Web Development</h3>
+                    <p class="text-slate-600 mb-6">High-performance websites built with the latest frameworks.</p>
+                    <a href="#contact" class="text-blue-600 font-semibold group-hover:underline">Start a Project →</a>
+                </div>
+                <div class="service-card group">
+                    <div class="icon-box">🎨</div>
+                    <h3 class="text-xl font-bold mb-3">UI/UX Design</h3>
+                    <p class="text-slate-600 mb-6">User-centric designs that ensure high engagement and conversion.</p>
+                    <a href="#contact" class="text-blue-600 font-semibold group-hover:underline">Get a Quote →</a>
+                </div>
+                <div class="service-card group">
+                    <div class="icon-box">📈</div>
+                    <h3 class="text-xl font-bold mb-3">Digital Growth</h3>
+                    <p class="text-slate-600 mb-6">SEO and marketing strategies to put your brand on the map.</p>
+                    <a href="#contact" class="text-blue-600 font-semibold group-hover:underline">Learn Strategy →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-24 bg-slate-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-slate-900 mb-4">Selected Works</h2>
+            <div class="h-1.5 w-16 bg-blue-600 mx-auto mb-16 rounded-full"></div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="portfolio-item group overflow-hidden rounded-xl relative">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=500"
+                        class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-blue-600/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <span class="text-white font-bold text-xl">E-Commerce App</span>
+                    </div>
+                </div>
+                <div class="portfolio-item group overflow-hidden rounded-xl relative">
+                    <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&q=80&w=500"
+                        class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-blue-600/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <span class="text-white font-bold text-xl">SaaS Dashboard</span>
+                    </div>
+                </div>
+                <div class="portfolio-item group overflow-hidden rounded-xl relative">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=500"
+                        class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-blue-600/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <span class="text-white font-bold text-xl">Marketing Portal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600"
+                    class="rounded-2xl shadow-xl">
+            </div>
+            <div class="md:w-1/2 space-y-6">
+                <h2 class="text-4xl font-bold text-slate-900">Why Partner With Us?</h2>
+                <p class="text-slate-600 leading-relaxed">
+                    Nexus Digital isn't just a service provider; we are your growth partners. With over 10 years of
+                    experience, we specialize in bridging the gap between complex technology and user-friendly design.
+                </p>
+                <ul class="space-y-3">
+                    <li class="flex items-center text-slate-700 font-medium">✅ 100% Dedicated Support</li>
+                    <li class="flex items-center text-slate-700 font-medium">✅ Custom Tailored Solutions</li>
+                    <li class="flex items-center text-slate-700 font-medium">✅ Result Oriented Approach</li>
+                </ul>
+                <a href="#contact" class="btn-primary inline-block">Work With Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-24 bg-slate-100">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
+                <div class="bg-blue-600 md:w-2/5 p-12 text-white">
+                    <h3 class="text-3xl font-bold mb-8">Let's Talk</h3>
+                    <p class="mb-6 opacity-90">Ready to transform your ideas into reality? Send us a message and our
+                        team will get back to you within 24 hours.</p>
+                    <div class="space-y-4">
+                        <p>📍 Innovation Hub, Level 4, Dhaka</p>
+                        <p>📧 support@nexusdigital.com</p>
+                        <p>📞 +880 1700 000000</p>
+                    </div>
+                </div>
+                <div class="md:w-3/5 p-12">
+                    <!-- Standard HTML Form (No JS) -->
+                    <form action="#" class="space-y-5">
+                        <div class="grid md:grid-cols-2 gap-5">
+                            <input type="text" placeholder="Full Name" class="form-input" required>
+                            <input type="email" placeholder="Email Address" class="form-input" required>
+                        </div>
+                        <input type="text" placeholder="Subject" class="form-input" required>
+                        <textarea rows="4" placeholder="Your Message" class="form-input" required></textarea>
+                        <button type="submit"
+                            class="w-full bg-blue-600 text-white font-bold py-4 rounded-xl hover:bg-blue-700 transition shadow-lg">
+                            Submit Request
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-xl font-bold text-blue-400 mb-4">NEXUS DIGITAL</h2>
+            <div class="flex justify-center space-x-6 mb-8 text-slate-400">
+                <a href="#home" class="hover:text-white">Home</a>
+                <a href="#services" class="hover:text-white">Services</a>
+                <a href="#portfolio" class="hover:text-white">Portfolio</a>
+                <a href="#contact" class="hover:text-white">Contact</a>
+            </div>
+            <p class="opacity-50 text-sm">&copy; 2024 Nexus Digital Agency. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
